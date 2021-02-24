@@ -1,0 +1,34 @@
+body{
+  background-image: url("swim.jpg");
+  background-color: cyan;
+
+}
+
+p{
+  font-family: Georgia, serif;
+  min-width: 200px;
+  max-width: 300px;
+  color: #e534eb;
+}
+
+h1{
+  padding-top: 50px;
+  font-family: Arial, Helvetica;
+  color: #e534eb;
+}
+
+/* This is to make text and images easier to read */
+
+p, h1, ol, img, a{
+  max-width: 300px;
+  background-color: white;
+  opacity: 80%;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+ol.upperroman{
+  list-style-type: upper-roman;
+}
